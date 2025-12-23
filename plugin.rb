@@ -5,3 +5,10 @@ module AresMUSH
     end
   end
 end
+
+AresMUSH::Plugin.define do
+  name "cod"
+  author "Dark of Night"
+  description "Chronicles of Darkness system (registry refactor)"
+  version "2.8.0"
+end
